@@ -1,0 +1,160 @@
+/*layout.css*/
+:root {
+  --cor-fundo: #ebebeb;
+  --tamanho-fonte: 36px;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+.principal {
+    border: solid 0px #03c;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: #000 2px 2px 2px 2px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cabecalho {
+    float: left;
+    width: 100%;
+    border: #00c 0px solid;
+    color: #ebebeb;
+    font-size: var(--tamanho-fonte);
+    font-family: arial, helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(fotoetec2.jpg);
+    background-size: cover;
+    height: 180px;
+    text-shadow: #4d0ab3 2px 2px;
+}
+
+.direita {
+    float: left;
+    width: 30%;
+    top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border: solid 0px #03c;
+}
+
+.centro {
+    float: left;
+    width: 39%;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #03c;
+    text-align: justify;
+    border: solid 0px #03c;
+    margin: 10px;
+}
+
+.esquerda {
+    float: left;
+    width: 25%;
+    margin-right: 0px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-right: 10px;
+    border: solid 0px #03c;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+    margin: 2px;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    padding: 5px;
+    height: 30px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    box-shadow: #000 1px 2px 2px 2px;
+}
+li:hover {
+    background-color: #ccc;
+}
+.noticias{
+    float: left;
+    width: 100%;
+    margin: 10px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #03c;
+    text-align: justify;
+    border: solid 1px #03c;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.secretaria{
+    float: left;
+    width: 100%;
+    margin: 10px;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #03c;
+    text-align: justify;
+    border: solid 1px #03c;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+p{
+    font-size: 16px;
+    color: #000;
+    text-align: justify;
+    margin: 10px;
+
+}
+p:hover{
+    color: #03c;
+}
+.rodape {
+    clear: both;
+    background-color: #036;
+    color: #fff;
+    text-align: right;
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 12px;
+    height: 30px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 200px;
+}
+
+.menu {
+    float: left;
+    width: 99.3%;
+    padding: 5px;
+    background-color: #036;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 0px #03c;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
